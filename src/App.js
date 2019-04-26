@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from './common/header';
 import { GlobalStyle } from "./reset";
 function App() {
   return (
       <div>
          <GlobalStyle />
-          <div>略略略</div>
+         <Header></Header>
       </div>
   );
 }
